@@ -1,0 +1,9 @@
+<div class="row" >
+    <div class="naslov"> Latest blog posts </div>
+      <div class="padd" *ngFor="let item of posts | async">
+        {{ item.title }} {{item.image}}<br>
+        {{item.exerp}}<br>
+        {{item.fulltext}}
+     
+     </div>
+    </div>

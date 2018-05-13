@@ -1,0 +1,33 @@
+<div class="row">
+  <span class="gimmespace"> <h1>New job Post</h1></span>
+    <div class="input-group input-group-sm mb-3">
+     <div class="input-group-prepend">
+       <span class="input-group-text" id="inputGroup-sizing-sm">Title:</span>
+     </div>
+     <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" #title>
+   </div>
+   <div class="input-group input-group-sm mb-3">
+     <div class="input-group-prepend"  color="danger">
+       <span class="input-group-text" id="inputGroup-sizing-sm">Excerp:</span>
+     </div>
+     <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" #excerpt>
+   </div>
+ 
+   <span class="gimmespace"> <h1>New job Post</h1></span>
+    <div class="input-group input-group-sm mb-3">
+     <div class="input-group-prepend">
+       <span class="input-group-text" id="inputGroup-sizing-sm">Title:</span>
+     </div>
+     <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" #link>
+   </div>
+   <div class="input-group mb-3">
+     <div class="input-group-prepend">
+       <span class="input-group-text">Image</span>
+     </div>
+     <div class="custom-file">
+       <input type="file" class="custom-file-input" id="inputGroupFile01" #images>
+       <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+     </div>
+   </div>
+   <button type="button" class="btn btn-danger" (click)="sendPost(title,excerpt,fulltext,images)">Danger</button>
+   </div>

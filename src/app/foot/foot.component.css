@@ -1,0 +1,9 @@
+.myfoot {
+    background-image:url("/assets/img/crystalsmall.svg");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: right;
+    background-position-y: bottom;
+    border-bottom: 1px solid;
+    height: 100px;
+}

@@ -1,0 +1,26 @@
+.magician {
+    width: 200px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    background-image: url("/assets/img/clown.svg");
+}
+.menubutton {
+    width:70px;
+    height: 48px;
+    background-image: url("/assets/img/menu.png");
+    background-repeat: no-repeat;
+    top: 95px;
+    z-index: 999;
+    position: absolute;
+}
+.slider {
+    background-image:url("/assets/img/sliderback.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.obloga {
+    padding:25px;
+}
