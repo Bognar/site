@@ -20,7 +20,6 @@ export class WritejobComponent implements OnInit {
   this.posts=this.itemRef.valueChanges();
   }
 
-
   ngOnInit() {
   }
 
